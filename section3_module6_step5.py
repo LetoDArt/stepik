@@ -7,8 +7,8 @@ import time
 import math
 
 
-LOGIN = 'vgon@sfedu.ru'
-PASSWORD = 'Havaysnikersy110399'
+LOGIN = ''
+PASSWORD = ''
 def answer_former(value):
     return math.log(int(value))
 
