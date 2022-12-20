@@ -54,7 +54,7 @@ class TestUserAddToBasketFromProductPage():
 
 
 @pytest.mark.guest_add_to_basket
-class TestUserAddToBasketFromProductPage():
+class TestGuestAddToBasketFromProductPage():
     def test_user_cant_see_success_message(self, browser):
         page = ProductPage(browser, link)
         page.open()
